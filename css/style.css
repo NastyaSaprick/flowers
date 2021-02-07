@@ -1,0 +1,431 @@
+@font-face {
+  font-family: 'Gotham Pro Lights';
+  src:url('../fonts/GothamPro-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Medium';
+    src:url('../fonts/GothamPro-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+      font-family: 'Gotham Pro';
+      src:url('../fonts/GothamPro.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+}
+*, *:after, *:before{
+  box-sizing: border-box;
+}
+body {
+  background-color: #292929;
+  color: #fff;
+  font-family: 'Gotham Pro', sans-serif;
+  margin: 0;
+}
+.header{
+  padding-top: 50px;
+}
+.header-description{
+  font-family: 'Gotham Pro Lights';
+  font-size: 12px;
+  letter-spacing: 0.12px;
+}
+.text-color-red{
+  color: #ff3469;
+  font-family: 'Gotham Pro Medium';
+}
+.header-phone{
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: right;
+  display: block;
+}
+.header-info{
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 7px;
+  display: block;
+  text-align: right;
+}
+.callback{
+  color: #ff3469;
+  text-align: right;
+  display: block;
+  margin-top: 16px;
+  font-size: 16px;
+}
+.hero{
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 77px;
+  border-bottom: 1px solid #3b3b3b;
+}
+.hero-description{
+  font-size: 18px;
+  font-family: 'Gotham Pro Lights';
+  text-transform: uppercase;
+  letter-spacing:  0.18px;
+  line-height: 1.4;
+  max-width: 590px;
+  margin: auto;
+}
+.hero-title{
+  font-size: 34px;
+  text-transform: uppercase;
+  line-height: normal;
+  letter-spacing: 0.01em;
+  font-family: 'Gotham Pro Medium';
+  max-width: 690px;
+  margin: auto;
+  margin-bottom:34px;
+}
+.flowers-slider{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 83px;
+  margin-top: 87px;
+}
+:root{
+  --swiper-navigation-size:18px;
+}
+.hero-cta{
+  display: block;
+  margin-top: 83px;
+  font-size: 19px;
+  text-transform: uppercase;
+  font-family: 'Gotham Pro Lights';
+}
+.button{
+  display: inline-block;
+  font-style: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff2e55;
+  padding-top: 30px;
+  padding-bottom: 26px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-top: 36px;
+  cursor: pointer;
+  border:none;
+}
+.reviews{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.rewiews-slider{
+  padding-top: 98px;
+}
+.review-slide{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.review-image{
+  width: 220px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: 'Gotham Pro Lights';
+  margin-right: 50px;
+}
+.review-image-1{
+  background: #000 url(../img/reviews/review_1.jpg) center;
+  position: relative;
+}
+.review-image-2{
+  background: #000 url(../img/reviews/review_2.jpg) center;
+  position: relative;
+}
+.review-image > * {
+  position: relative;
+}
+.review-image:before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+}
+.review-name{
+  margin-bottom: 7px;
+}
+.review-text{
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  line-height: 1.4;
+}
+.review-link{
+  color: #f24841;
+}
+.section-title{
+  font-style: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+.advantages{
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  border-bottom: 1px solid #3b3b3b;
+}
+.advantages-wrapper{
+  min-height: 82px;
+  margin-bottom: 30px;
+}
+.advantages-title{
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 1.4;
+  max-width: 270px;
+  margin: auto;
+}
+.swiper-button-prev,.swiper-button-next{
+  color: #8c8c8c;
+}
+.swiper-button-prev:hover,.swiper-button-next:hover{
+  color:#6d3431;
+}
+.goods{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section-description{
+  font-size: 18px;
+  text-align: center;
+}
+.card{
+  text-align: center;
+  border:3px solid #ffffff;
+  padding: 33px 35px 30px 35px;
+  margin-top: 27px;
+}
+.card-title{
+  margin-top: 23px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.card-label{
+  font-size: 14px;
+  display: block;
+  margin-bottom: 7px;
+  margin-top: 20px;
+}
+.color-label{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.color-input{
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: -9;
+}
+.color-label.white{
+  background-color:#fff;
+}
+.color-label.biege{
+  background-color:#f7b496;
+}
+.color-label.pink{
+  background-color:#ed366e;
+}
+.color-label.red{
+  background-color:#ff0000;
+}
+.color-label.blue{
+  background-color:#12129d;
+}
+.counter-input{
+  border: 2px solid #ffffff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #292929;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.counter-button{
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  background-color:#292929;
+  border:none;
+}
+.card-button{
+  font-size: 14px;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.more{
+  font-size: 14px;
+  color: #f24841;
+  display: block;
+  text-align: center;
+  margin-top: 39px;
+  padding: 10px;
+}
+.more:after{
+  content:'';
+  display: inline-block;
+  width: 10px;
+  height: 4px;
+  background:url('../img/caret.png') no-repeat center;
+  margin-left: 14px;
+  vertical-align: middle;
+}
+.offer{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+.offer-link{
+  text-transform: uppercase;
+  display: block;
+  font-size: 30px;
+  margin-bottom: 65px;
+  color: #fff;
+}
+.offer-label{
+  display: block;
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+.offer-phone{
+  font-size: 36px;
+  text-decoration: none;
+  color: #fff;
+}
+.footer-menu{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 33px;
+}
+.footer-item{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+}
+.footer-menu-item{
+  color: #fff;
+  margin-right: 30px;
+}
+.social{
+  font-size: 16px;
+}
+.social-link{
+  margin-left: 15px;
+}
+.footer-label{
+  display: block;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color:#fff;
+}
+.footer-info{
+  text-align: right;
+}
+.footer-phone{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.footer-description{
+ color: #292929;
+}
+.footer-white{
+  background-color: #fff;
+}
+.footer-info{
+  color: #101010;
+}
+.footer-link{
+  color: #101010;
+}
+.modal{
+  display: none;
+}
+.modal-title{
+  color: #292929;
+}
+.modal-input{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+.modal-button{
+  width: 100%;
+}
+@media(max-width:768px){
+  .header{
+    text-align: center;
+  }
+  .header-contacts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero{
+    padding-top: 50px;
+  }
+  .hero-title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  .hero-description{
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .colors{
+    max-width: 200px;
+    margin: auto;
+  }
+  .card-label{
+    margin:20px auto;
+    display: block;
+  }
+  .footer-info,.offer,.offer-title{
+    text-align: left;
+  }
+  /*остались вопросы*/
+  .section-title, .offer-phone{
+    font-size: 25px;
+  }
+  .offer-link {
+    font-size: 20px;
+  }
+}
+@media(max-width:576px){
+  .offer , .offer-title , .footer-info{
+      text-align: left;
+  }
+}
