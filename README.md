@@ -1,4 +1,5 @@
 # flowers - учебный проект Glo Academy
+https://nastyasaprick.github.io/flowers/
 ### Выполнила проект: Анастасия Сапронова
 
 ## Технологии
